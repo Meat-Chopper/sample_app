@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-#gem 'gravatar_image_tag' #, '1.0.0.pre2'
+gem 'gravatar_image_tag' #, '1.0.0.pre2'
 #gem 'will_paginate' #, '3.0.pre2'
 
 # Bundle edge Rails instead:
@@ -26,8 +26,7 @@ group :test do
   gem 'autotest-rails-pure' #, '4.1.2'
   gem 'autotest-fsevent' #, '0.2.4'
   gem 'autotest-growl' #, '0.2.9'
-
-  #gem 'factory_girl_rails' #, '1.0'
+  gem 'factory_girl_rails' #, '1.0'
 end
 
 # Gems used only for assets and not required
